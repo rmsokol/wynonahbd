@@ -4,6 +4,10 @@ html {
   background-image: linear-gradient(#f2d4f0, #EE85B5, #FF958C);
 } 
 
+.date{
+  color: #FF958C;
+}
+
 .heading {
   font-family: 'Inspiration', cursive;
   font-size: 64px;
