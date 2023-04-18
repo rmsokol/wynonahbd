@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(#f2d4f0, #EE85B5, #FF958C);
+} 
+
+.heading {
+  font-family: 'Inspiration', cursive;
+  font-size: 64px;
+  color: #883677;
+  text-shadow: 1px 2px 1px white; 
+  
+}
+
+.present {
+  width: 200px;
+  padding-top: 100px;
+}
+
+.present:hover {
+  visibility: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#slideshow-container {
+  padding-top: 30px;
+}
+
+.imgs {
+  width: 400px;
+}
+
+body {
+  background-image:url("https://media.giphy.com/media/TGLncdsBmgwVfkJLSc/giphy.gif") ;
+  background-position: absolute;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 200px;
+  font-size: 18px;
+  font-family: 'Waiting for the Sunrise', cursive;
+}
+
+.profilepic {
+  display: flex;
+  width: 50px;
+  border-radius: 50%;
+}
