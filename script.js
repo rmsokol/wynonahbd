@@ -11,13 +11,13 @@ present.addEventListener("click", showRandomImage)
 
 // function using random index and interating array to html container
 function showRandomImage() {
-    const currentIndex = Math.floor(Math.random()*     images.length)
+    const currentIndex = Math.floor(Math.random()*images.length)
     document.getElementById("present").style.display="none"
-    slideshowContainer.innerHTML = `<img class="imgs center"        src="${images[currentIndex]}">`
+    slideshowContainer.innerHTML = `<img class="imgs center" src="${images[currentIndex]}">`
   // timing method calling above function
-    
+    setInterval(showRandomImage, 2000)
 }
 
-setInterval(showRandomImage, 2000)
+
 
 
